@@ -1,1 +1,7 @@
-/* Add CSS Styling */
+.same-font-size {
+    font-size: 28px;
+}
+
+.same-font-family {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
