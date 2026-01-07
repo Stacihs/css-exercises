@@ -20,11 +20,14 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
-.button {
+#cancel-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+.button {
   font-size: 20px;
 }
 
