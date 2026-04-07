@@ -7,17 +7,17 @@ img {
   height: 100px;
 }
 
-.container {
+.container,
+.plant {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .plant-types {
   display: flex;
   justify-content: center;
-  align-items: center;
-
 }
 
 .title {
