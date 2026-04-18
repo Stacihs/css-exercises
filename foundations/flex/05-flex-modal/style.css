@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
+}
+
+body,
+.modal,
+.icon,
+.close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
@@ -9,10 +19,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .modal {
@@ -21,10 +27,7 @@ body {
   gap: 15px;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -35,9 +38,6 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
   align-self: flex-start;
 }
@@ -62,9 +62,6 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
 }
