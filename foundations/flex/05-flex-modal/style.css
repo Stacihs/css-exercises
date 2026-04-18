@@ -50,6 +50,10 @@ body {
   font-size: larger;
 }
 
+.text {
+  margin: 10px 0;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
