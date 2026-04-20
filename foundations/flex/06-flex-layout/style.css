@@ -30,6 +30,11 @@ ul {
   list-style-type: none;
 }
 
+li a {
+  text-decoration: none;
+  color: #727070;
+}
+
 .content {
   display: flex;
   flex-direction: column;
