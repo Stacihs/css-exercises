@@ -16,10 +16,17 @@ body {
   align-items: center;
 }
 
-.header, footer, ul {
+.header, .footer {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .content {
