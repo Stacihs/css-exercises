@@ -31,6 +31,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding-left: 16px;
+  flex-shrink: 0;
 }
 
 .main {
@@ -43,6 +44,7 @@ body {
   color: darkmagenta;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .sidebar {
